@@ -751,6 +751,13 @@ button { font-family: inherit; cursor: pointer; }
   .field-row { grid-template-columns: 1fr; }
   .modal-actions { flex-wrap: wrap; }
   .modal-actions .btn { flex: 1 1 auto; }
+
+  /* Mobile browsers count their toolbar inside 100vh, which hid the cart's
+     bottom (Estimated total + Request quote button). Use the *visible* viewport
+     height, and let the item list shrink so the summary stays on screen. */
+  .cart { height: 100dvh; }
+  .cart-items { min-height: 0; }
+  .modal { max-height: 88dvh; }
 }
 
 @media (max-width: 520px) {
