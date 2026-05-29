@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Aurora 8-Arm Crystal Chandelier">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(38, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(38, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(22, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(22, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(22, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="160" y1="34" x2="240" y2="34"/>
+    <line x1="200" y1="34" x2="200" y2="74"/>
+    <circle cx="200" cy="86" r="13"/>
+    <path d="M190 86 C150 98 120 122 112 152"/>
+    <path d="M210 86 C250 98 280 122 288 152"/>
+    <path d="M194 98 C178 120 164 134 152 152"/>
+    <path d="M206 98 C222 120 236 134 248 152"/>
+    <line x1="200" y1="99" x2="200" y2="152"/>
+    <circle cx="112" cy="160" r="9" fill="hsla(22, 88%, 58%, 1)"/>
+    <circle cx="152" cy="160" r="9" fill="hsla(22, 88%, 58%, 1)"/>
+    <circle cx="200" cy="160" r="9" fill="hsla(22, 88%, 58%, 1)"/>
+    <circle cx="248" cy="160" r="9" fill="hsla(22, 88%, 58%, 1)"/>
+    <circle cx="288" cy="160" r="9" fill="hsla(22, 88%, 58%, 1)"/>
+  </g>
+</svg>

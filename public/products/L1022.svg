@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="TitanFlood Outdoor 100W">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(214, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(214, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(198, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(198, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(198, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="138" y="92" width="112" height="74" rx="10"/>
+    <line x1="162" y1="92" x2="162" y2="166"/>
+    <line x1="194" y1="92" x2="194" y2="166"/>
+    <line x1="226" y1="92" x2="226" y2="166"/>
+    <rect x="180" y="166" width="28" height="12" rx="3"/>
+    <line x1="194" y1="178" x2="194" y2="214"/>
+    <line x1="168" y1="214" x2="220" y2="214"/>
+    <path d="M256 110 L330 96 M256 130 L336 130 M256 150 L330 164" stroke="hsla(198, 88%, 58%, 1)"/>
+  </g>
+</svg>

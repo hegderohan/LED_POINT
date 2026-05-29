@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Smart Switch 2-Gang">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(198, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(198, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(220, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(220, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(220, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="150" y="76" width="100" height="148" rx="16"/>
+    <rect x="176" y="110" width="48" height="80" rx="10" fill="hsla(220, 88%, 58%, 1)" fill-opacity="0.22"/>
+    <line x1="176" y1="150" x2="224" y2="150"/>
+    <circle cx="200" cy="92" r="3.5" fill="#2b2620"/>
+    <circle cx="200" cy="208" r="3.5" fill="#2b2620"/>
+  </g>
+</svg>

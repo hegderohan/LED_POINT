@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Spectra Surface Downlight 4&quot;">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(205, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(205, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(201, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(201, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(201, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="116" y1="74" x2="284" y2="74"/>
+    <rect x="170" y="64" width="60" height="22" rx="11"/>
+    <circle cx="200" cy="85" r="10" fill="hsla(201, 88%, 58%, 1)"/>
+    <path d="M188 94 L150 204 L250 204 L212 94 Z" fill="hsla(201, 88%, 58%, 1)" fill-opacity="0.16" stroke="none"/>
+  </g>
+</svg>

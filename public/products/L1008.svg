@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Halo Acrylic Pendant">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(34, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(34, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(56, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(56, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(56, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="186" y1="30" x2="214" y2="30"/>
+    <line x1="200" y1="30" x2="200" y2="92"/>
+    <path d="M142 152 A60 60 0 0 1 258 152"/>
+    <line x1="142" y1="152" x2="258" y2="152"/>
+    <circle cx="200" cy="168" r="11" fill="hsla(56, 88%, 58%, 1)"/>
+  </g>
+</svg>

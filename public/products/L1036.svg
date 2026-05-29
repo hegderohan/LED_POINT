@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Lumos Fan with Light">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(202, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(202, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(198, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(198, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(198, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(200 150)">
+      <g transform="rotate(0)"><path d="M0 0 q72 -12 90 -56 q-48 6 -90 40 Z" fill="hsla(198, 88%, 58%, 1)" fill-opacity="0.18"/></g>
+      <g transform="rotate(90)"><path d="M0 0 q72 -12 90 -56 q-48 6 -90 40 Z" fill="hsla(198, 88%, 58%, 1)" fill-opacity="0.18"/></g>
+      <g transform="rotate(180)"><path d="M0 0 q72 -12 90 -56 q-48 6 -90 40 Z" fill="hsla(198, 88%, 58%, 1)" fill-opacity="0.18"/></g>
+      <g transform="rotate(270)"><path d="M0 0 q72 -12 90 -56 q-48 6 -90 40 Z" fill="hsla(198, 88%, 58%, 1)" fill-opacity="0.18"/></g>
+      <circle cx="0" cy="0" r="17"/>
+      <circle cx="0" cy="0" r="5" fill="#2b2620"/>
+    </g>
+  </g>
+</svg>

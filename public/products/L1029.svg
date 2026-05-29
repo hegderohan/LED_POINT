@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Smart WiFi Bulb 12W RGB">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hsl(280, 42%, 97%)"/>
+      <stop offset="1" stop-color="hsl(280, 46%, 87%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="hsla(276, 88%, 62%, 0.5)"/>
+      <stop offset="0.55" stop-color="hsla(276, 88%, 62%, 0.12)"/>
+      <stop offset="1" stop-color="hsla(276, 88%, 62%, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#2b2620" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 66 a54 54 0 0 1 38 92 q-8 8 -9 20 h-58 q-1 -12 -9 -20 a54 54 0 0 1 38 -92 Z"/>
+    <path d="M182 182 h36 M188 196 h24"/>
+    <circle cx="128" cy="120" r="7" fill="hsl(0, 80%, 60%)"/>
+    <circle cx="146" cy="78" r="7" fill="hsl(130, 70%, 50%)"/>
+    <circle cx="272" cy="120" r="7" fill="hsl(225, 85%, 62%)"/>
+    <circle cx="254" cy="78" r="7" fill="hsla(276, 88%, 58%, 1)"/>
+  </g>
+</svg>
