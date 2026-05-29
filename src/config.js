@@ -9,8 +9,7 @@ export const SITE_CONFIG = {
 
   // WhatsApp number in international format, DIGITS ONLY (no +, spaces or dashes).
   // Example: India number 98123 45678  ->  "919812345678"
-  // ▼▼▼ IMPORTANT: replace this with your real WhatsApp business number ▼▼▼
-  whatsapp: "919999999999",
+  whatsapp: "919886021339",
 
   gstin: "29ABCDE1234F1Z5",
 
